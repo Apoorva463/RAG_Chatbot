@@ -1,0 +1,12 @@
+# Langfuse Configuration (Optional)
+# Get these from https://cloud.langfuse.com
+LANGFUSE_SECRET_KEY=your-secret-key-here
+LANGFUSE_PUBLIC_KEY=your-public-key-here
+LANGFUSE_HOST=https://cloud.langfuse.com
+
+# Database Configuration
+DATABASE_PATH=favorites.db
+
+# Application Configuration
+DEBUG=False
+LOG_LEVEL=INFO

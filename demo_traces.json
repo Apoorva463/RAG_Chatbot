@@ -1,0 +1,519 @@
+[
+  {
+    "trace_id": "trace_20251019_111321_003814",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "Who wrote Imagine?",
+    "timestamp": "2025-10-19T11:13:21.003818",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_003814",
+    "retrieved_docs": [
+      {
+        "Title": "Imagine",
+        "Author": "John Lennon",
+        "Genre": "Rock",
+        "Mood": "Peaceful",
+        "Year": 1971,
+        "text_representation": "Song: Imagine by John Lennon - Genre: Rock - Mood: Peaceful - Year: 1971"
+      }
+    ],
+    "query": "Who wrote Imagine?",
+    "top_k": 3,
+    "timestamp": "2025-10-19T11:13:21.005094",
+    "type": "retrieval"
+  },
+  {
+    "trace_id": "trace_20251019_111321_003814",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 0.0,
+      "rag_recall": 0.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 0.0,
+      "rag_recall": 0.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.005262",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_003814",
+    "response": "'Imagine' was written/performed by John Lennon.",
+    "retrieved_docs": [
+      {
+        "Title": "Imagine",
+        "Author": "John Lennon",
+        "Genre": "Rock",
+        "Mood": "Peaceful",
+        "Year": 1971,
+        "text_representation": "Song: Imagine by John Lennon - Genre: Rock - Mood: Peaceful - Year: 1971"
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.005266",
+    "type": "response"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005278",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "What genre is Bohemian Rhapsody?",
+    "timestamp": "2025-10-19T11:13:21.005284",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005278",
+    "retrieved_docs": [
+      {
+        "Title": "Bohemian Rhapsody",
+        "Author": "Queen",
+        "Genre": "Rock",
+        "Mood": "Dramatic",
+        "Year": 1975,
+        "text_representation": "Song: Bohemian Rhapsody by Queen - Genre: Rock - Mood: Dramatic - Year: 1975"
+      }
+    ],
+    "query": "What genre is Bohemian Rhapsody?",
+    "top_k": 3,
+    "timestamp": "2025-10-19T11:13:21.005589",
+    "type": "retrieval"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005278",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 1.0,
+      "rag_recall": 1.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 1.0,
+      "rag_recall": 1.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.005608",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005278",
+    "response": "'Bohemian Rhapsody' is a Rock song.",
+    "retrieved_docs": [
+      {
+        "Title": "Bohemian Rhapsody",
+        "Author": "Queen",
+        "Genre": "Rock",
+        "Mood": "Dramatic",
+        "Year": 1975,
+        "text_representation": "Song: Bohemian Rhapsody by Queen - Genre: Rock - Mood: Dramatic - Year: 1975"
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.005610",
+    "type": "response"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005616",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "What mood is Hotel California?",
+    "timestamp": "2025-10-19T11:13:21.005619",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005616",
+    "retrieved_docs": [
+      {
+        "Title": "Hotel California",
+        "Author": "Eagles",
+        "Genre": "Rock",
+        "Mood": "Mysterious",
+        "Year": 1976,
+        "text_representation": "Song: Hotel California by Eagles - Genre: Rock - Mood: Mysterious - Year: 1976"
+      }
+    ],
+    "query": "What mood is Hotel California?",
+    "top_k": 3,
+    "timestamp": "2025-10-19T11:13:21.005826",
+    "type": "retrieval"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005616",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 1.0,
+      "rag_recall": 1.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 1.0,
+      "rag_recall": 1.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.005841",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005616",
+    "response": "'Hotel California' has a Mysterious mood.",
+    "retrieved_docs": [
+      {
+        "Title": "Hotel California",
+        "Author": "Eagles",
+        "Genre": "Rock",
+        "Mood": "Mysterious",
+        "Year": 1976,
+        "text_representation": "Song: Hotel California by Eagles - Genre: Rock - Mood: Mysterious - Year: 1976"
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.005842",
+    "type": "response"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005847",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "Tell me about Stairway to Heaven",
+    "timestamp": "2025-10-19T11:13:21.005850",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005847",
+    "retrieved_docs": [
+      {
+        "Title": "Stairway to Heaven",
+        "Author": "Led Zeppelin",
+        "Genre": "Rock",
+        "Mood": "Epic",
+        "Year": 1971,
+        "text_representation": "Song: Stairway to Heaven by Led Zeppelin - Genre: Rock - Mood: Epic - Year: 1971",
+        "similarity_score": 0.5881072878837585
+      },
+      {
+        "Title": "Rolling in the Deep",
+        "Author": "Adele",
+        "Genre": "Soul",
+        "Mood": "Powerful",
+        "Year": 2010,
+        "text_representation": "Song: Rolling in the Deep by Adele - Genre: Soul - Mood: Powerful - Year: 2010",
+        "similarity_score": 0.32730573415756226
+      },
+      {
+        "Title": "Don't Stop Believin'",
+        "Author": "Journey",
+        "Genre": "Rock",
+        "Mood": "Inspiring",
+        "Year": 1981,
+        "text_representation": "Song: Don't Stop Believin' by Journey - Genre: Rock - Mood: Inspiring - Year: 1981",
+        "similarity_score": 0.3106457591056824
+      }
+    ],
+    "query": "Tell me about Stairway to Heaven",
+    "top_k": 3,
+    "timestamp": "2025-10-19T11:13:21.044591",
+    "type": "retrieval"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005847",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.8,
+      "hallucination_detected": true,
+      "rag_precision": 0.6666666666666666,
+      "rag_recall": 0.6666666666666666,
+      "citation_present": true,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.8,
+      "hallucination_detected": true,
+      "rag_precision": 0.6666666666666666,
+      "rag_recall": 0.6666666666666666,
+      "citation_present": true,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.044642",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_005847",
+    "response": "I found 3 songs that might be relevant:\n1. 'Stairway to Heaven' by Led Zeppelin (Rock, Epic)\n2. 'Rolling in the Deep' by Adele (Soul, Powerful)\n3. 'Don't Stop Believin'' by Journey (Rock, Inspiring)",
+    "retrieved_docs": [
+      {
+        "Title": "Stairway to Heaven",
+        "Author": "Led Zeppelin",
+        "Genre": "Rock",
+        "Mood": "Epic",
+        "Year": 1971,
+        "text_representation": "Song: Stairway to Heaven by Led Zeppelin - Genre: Rock - Mood: Epic - Year: 1971",
+        "similarity_score": 0.5881072878837585
+      },
+      {
+        "Title": "Rolling in the Deep",
+        "Author": "Adele",
+        "Genre": "Soul",
+        "Mood": "Powerful",
+        "Year": 2010,
+        "text_representation": "Song: Rolling in the Deep by Adele - Genre: Soul - Mood: Powerful - Year: 2010",
+        "similarity_score": 0.32730573415756226
+      },
+      {
+        "Title": "Don't Stop Believin'",
+        "Author": "Journey",
+        "Genre": "Rock",
+        "Mood": "Inspiring",
+        "Year": 1981,
+        "text_representation": "Song: Don't Stop Believin' by Journey - Genre: Rock - Mood: Inspiring - Year: 1981",
+        "similarity_score": 0.3106457591056824
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.044644",
+    "type": "response"
+  },
+  {
+    "trace_id": "trace_20251019_111321_044662",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "Add Imagine to my favorites",
+    "timestamp": "2025-10-19T11:13:21.044676",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_044662",
+    "user_id": "demo_user",
+    "action": "add",
+    "song": {
+      "Title": "Imagine",
+      "Author": "John Lennon",
+      "Genre": "Rock",
+      "Mood": "Peaceful",
+      "Year": 1971,
+      "text_representation": "Song: Imagine by John Lennon - Genre: Rock - Mood: Peaceful - Year: 1971"
+    },
+    "favorites": null,
+    "timestamp": "2025-10-19T11:13:21.045703",
+    "type": "favorites"
+  },
+  {
+    "trace_id": "trace_20251019_111321_044662",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 1.0,
+      "rag_recall": 1.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.4,
+      "hallucination_detected": true,
+      "rag_precision": 1.0,
+      "rag_recall": 1.0,
+      "citation_present": false,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.045741",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_044662",
+    "response": "Added 'Imagine' by John Lennon to your favorites!",
+    "retrieved_docs": [
+      {
+        "Title": "Imagine",
+        "Author": "John Lennon",
+        "Genre": "Rock",
+        "Mood": "Peaceful",
+        "Year": 1971,
+        "text_representation": "Song: Imagine by John Lennon - Genre: Rock - Mood: Peaceful - Year: 1971"
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.045743",
+    "type": "response"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045753",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "What are my favorites?",
+    "timestamp": "2025-10-19T11:13:21.045761",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045753",
+    "user_id": "demo_user",
+    "action": "get",
+    "song": null,
+    "favorites": [
+      {
+        "title": "Imagine",
+        "author": "John Lennon",
+        "genre": "Rock",
+        "mood": "Peaceful",
+        "year": 1971
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.045928",
+    "type": "favorites"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045753",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.0,
+      "hallucination_detected": true,
+      "rag_precision": 0.0,
+      "rag_recall": 0.0,
+      "citation_present": true,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.0,
+      "hallucination_detected": true,
+      "rag_precision": 0.0,
+      "rag_recall": 0.0,
+      "citation_present": true,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.045950",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045753",
+    "response": "Here are your 1 favorite songs:\n\u2022 Imagine by John Lennon (Rock, Peaceful)",
+    "retrieved_docs": [
+      {
+        "title": "Imagine",
+        "author": "John Lennon",
+        "genre": "Rock",
+        "mood": "Peaceful",
+        "year": 1971
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.045951",
+    "type": "response"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045956",
+    "session_id": "session_20251019_111321",
+    "user_id": "demo_user",
+    "query": "Recommend me happy songs",
+    "timestamp": "2025-10-19T11:13:21.045968",
+    "type": "query"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045956",
+    "user_id": "demo_user",
+    "recommendation_type": "mood",
+    "recommendations": [
+      {
+        "Title": "Despacito",
+        "Author": "Luis Fonsi",
+        "Genre": "Latin",
+        "Mood": "Happy",
+        "Year": 2017,
+        "text_representation": "Song: Despacito by Luis Fonsi - Genre: Latin - Mood: Happy - Year: 2017"
+      },
+      {
+        "Title": "Dancing Queen",
+        "Author": "ABBA",
+        "Genre": "Disco",
+        "Mood": "Happy",
+        "Year": 1976,
+        "text_representation": "Song: Dancing Queen by ABBA - Genre: Disco - Mood: Happy - Year: 1976"
+      },
+      {
+        "Title": "Sweet Caroline",
+        "Author": "Neil Diamond",
+        "Genre": "Pop",
+        "Mood": "Happy",
+        "Year": 1969,
+        "text_representation": "Song: Sweet Caroline by Neil Diamond - Genre: Pop - Mood: Happy - Year: 1969"
+      }
+    ],
+    "user_favorites": null,
+    "timestamp": "2025-10-19T11:13:21.047203",
+    "type": "recommendation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045956",
+    "evaluation_result": {
+      "tone": "neutral",
+      "factuality_score": 0.8,
+      "hallucination_detected": true,
+      "rag_precision": 0.0,
+      "rag_recall": 0.0,
+      "citation_present": true,
+      "response_quality": "poor"
+    },
+    "evaluation_metrics": {
+      "tone": "neutral",
+      "factuality_score": 0.8,
+      "hallucination_detected": true,
+      "rag_precision": 0.0,
+      "rag_recall": 0.0,
+      "citation_present": true,
+      "response_quality": "poor"
+    },
+    "timestamp": "2025-10-19T11:13:21.047234",
+    "type": "evaluation"
+  },
+  {
+    "trace_id": "trace_20251019_111321_045956",
+    "response": "Here are some happy songs you might like:\n1. Despacito by Luis Fonsi (Latin, Happy)\n2. Dancing Queen by ABBA (Disco, Happy)\n3. Sweet Caroline by Neil Diamond (Pop, Happy)",
+    "retrieved_docs": [
+      {
+        "Title": "Despacito",
+        "Author": "Luis Fonsi",
+        "Genre": "Latin",
+        "Mood": "Happy",
+        "Year": 2017,
+        "text_representation": "Song: Despacito by Luis Fonsi - Genre: Latin - Mood: Happy - Year: 2017"
+      },
+      {
+        "Title": "Dancing Queen",
+        "Author": "ABBA",
+        "Genre": "Disco",
+        "Mood": "Happy",
+        "Year": 1976,
+        "text_representation": "Song: Dancing Queen by ABBA - Genre: Disco - Mood: Happy - Year: 1976"
+      },
+      {
+        "Title": "Sweet Caroline",
+        "Author": "Neil Diamond",
+        "Genre": "Pop",
+        "Mood": "Happy",
+        "Year": 1969,
+        "text_representation": "Song: Sweet Caroline by Neil Diamond - Genre: Pop - Mood: Happy - Year: 1969"
+      }
+    ],
+    "timestamp": "2025-10-19T11:13:21.047235",
+    "type": "response"
+  }
+]
